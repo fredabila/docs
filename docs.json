@@ -25,7 +25,9 @@
               "organizers/listing-your-event",
               "organizers/managing-events",
               "organizers/insights",
-              "organizers/people"
+              "organizers/people",
+              "organizers/venue",
+              "organizers/qr-codes"
             ]
           },
           {
