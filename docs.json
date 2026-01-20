@@ -7,7 +7,7 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/yenhyia-logo.png",
   "navigation": {
     "tabs": [
       {
@@ -22,7 +22,10 @@
           {
             "group": "Event Management",
             "pages": [
-              "organizers/listing-your-event"
+              "organizers/listing-your-event",
+              "organizers/managing-events",
+              "organizers/insights",
+              "organizers/people"
             ]
           },
           {
