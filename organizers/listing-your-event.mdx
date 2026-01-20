@@ -1,0 +1,91 @@
+---
+title: "Listing Your Event"
+description: "A step-by-step guide to publishing your first event on Yenhyia."
+---
+
+Once your organizer profile is set up, you can start listing events immediately.
+
+## Step 1: Initiate Event Creation
+
+From your **Organizer Dashboard**, look for the **green "Create Your Event" button** in the header navigation. Click it to begin.
+
+## Step 2: Select Your Plan
+
+A modal will appear asking you to choose a plan for this event.
+
+<CardGroup cols={2}>
+  <Card title="Free Plan" icon="ticket">
+    Perfect for free community meetups and small gatherings.
+  </Card>
+  <Card title="Pro Plan" icon="crown" color="#ea5a0c">
+    Advanced features including custom artwork, analytics, and more.
+  </Card>
+</CardGroup>
+
+Review the benefits listed on each card, select your preferred option, and click the **"Continue to details"** button.
+
+## Step 3: Event Details
+
+Fill out the form with your event information. Some fields are optional, while others are required to ensure your attendees have all the info they need.
+
+### Essential Information
+
+<ParamField body="Event Name" type="string" required>
+  The official title of your experience.
+  
+  > [!TIP]
+  > **Naming Best Practices:**
+  > - **Do:** Include the year/date (e.g., "Tech Summit 2024").
+  > - **Do:** Add location/venue if specific (e.g., "AI Meetup - San Francisco").
+  > - **Do:** Use edition numbers for recurring events (e.g., "Startup Night Vol. 3").
+  > - **Don't:** Us generic names like "Networking Event".
+</ParamField>
+
+<ParamField body="Event Image / Artwork" type="image" required>
+  Upload a high-quality cover image for your event page.
+  
+  > [!NOTE]
+  > **Pro Plan Only:** Custom image uploads are locked on the Free plan.
+</ParamField>
+
+### Date & Time
+
+<ParamField body="Date" type="date" required>
+  Format: `mm/dd/yyyy`
+</ParamField>
+
+<ParamField body="Time" type="time" required>
+  Set the start time for your event.
+</ParamField>
+
+### Location & Context
+
+<ParamField body="Location" type="string" required>
+  Search and select the venue on Google Maps to ensure accurate directions for attendees.
+</ParamField>
+
+<ParamField body="Category" type="select" required>
+  Choose the primary category (e.g., **Technology**).
+</ParamField>
+
+<ParamField body="Tags (Interests)" type="array">
+  Add relevant tags to help users find your event (e.g., `AI`, `Startup`).
+</ParamField>
+
+### Additional Details
+
+<ParamField body="Description" type="text" required>
+  Provide a detailed description of what attendees can expect.
+</ParamField>
+
+<ParamField body="External URL / Website" type="url">
+  Link to your event's external website or registration page (e.g., `https://your-event-website.com`).
+</ParamField>
+
+<ParamField body="Capacity" type="number">
+  Set the maximum number of attendees (e.g., **Max 100**).
+</ParamField>
+
+<ParamField body="Ticket Price" type="money">
+  Set the cost per ticket if applicable.
+</ParamField>
