@@ -32,7 +32,8 @@
               "organizers/personalization",
               "organizers/page-builder",
               "organizers/program",
-              "organizers/ticketing"
+              "organizers/ticketing",
+              "organizers/business"
             ]
           },
           {
