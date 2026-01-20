@@ -27,7 +27,12 @@
               "organizers/insights",
               "organizers/people",
               "organizers/venue",
-              "organizers/qr-codes"
+              "organizers/qr-codes",
+              "organizers/engage",
+              "organizers/personalization",
+              "organizers/page-builder",
+              "organizers/program",
+              "organizers/ticketing"
             ]
           },
           {
